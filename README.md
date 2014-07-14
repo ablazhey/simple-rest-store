@@ -1,3 +1,4 @@
+
 # StudyTube
 
 TODO: Write a gem description
@@ -20,6 +21,26 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+                              Initalize:
+
+                               @foo = StudyTube::StudyTube.new(TYPE, FILE_PATH)
+                                
+                                  TYPE takes values 'REST' or 'FILES' or 'RestFiles'
+                                  FILE_PATH takes values 'file.txt'
+
+                              @foo.create(key, value) - create rows 
+
+                              @foo.update(key, value) - update rows
+
+                              @foo.delete(key)  - delete rows
+
+                              @foo.show(key)
+
+                              @foo.list
+
+                                key - String
+                                value - String     
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/StudyTube/fork )
@@ -27,3 +48,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+=======
+simple-rest-store
+=================
+

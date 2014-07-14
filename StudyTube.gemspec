@@ -9,7 +9,28 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Andrey"]
   spec.email         = ["andrey.blahey@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.description   = %q{TODO: 
+                            Initalize:
+
+                               @foo = StudyTube::StudyTube.new(TYPE, FILE_PATH)
+                                
+                                  TYPE takes values 'REST' or 'FILES' or 'RestFiles'
+                                  FILE_PATH takes values 'file.txt'
+
+                              @foo.create(key, value) - create rows 
+
+                              @foo.update(key, value) - update rows
+
+                              @foo.delete(key)  - delete rows
+
+                              @foo.show(key)
+
+                              @foo.list
+
+                                key - String
+                                value - String                  
+               
+                          }
   spec.homepage      = ""
   spec.license       = "MIT"
 
